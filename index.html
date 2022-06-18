@@ -2,21 +2,25 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-dark.css" id="theme-link">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <script src="/scripts/script.js"></script>
     <title>Портфолио Junior верстальщика</title>
   </head>
 
   <body>
     <header class="page-header">
      <div class="container">
-      Контакты в шапке
+       <button class="btn"></button>
+
+      <a class="header-email" href="mailto:enot_neopoznanniy@gmail.com">mr.tuuuugga@mail.ru</a>
+      <a class="header-phone" href="tel:+79147259731">+7(914)725-97-31</a>
      </div>
     </header>
 
     <section class="hero-image">
      <div class="container">
-       <h1 class="heading">Неопознанный Енот</h1>
+       <h1 class="heading">Рожков Дмитрий</h1>
        <p>Junior верстальщик</p>
       </div>
     </section>
@@ -28,16 +32,29 @@
        <p>Текст с парой слов о себе.</p>
        <h3>Чем могу быть полезен</h3>
        <p>Текст о том, чем могу быть полезен.</p>
-      </div>
+      
+    <div class="skills">
+        <h3>Мои навыки</h3>
+        <dl class="skills-list">
+        <dt class="skill-html">HTML</dt>
+        <dd class="level"><div style="width: 60%;">60%</div></dd>
+        <dt class="skill-css">CSS</dt>
+        <dd class="level"><div style="width: 40%;">40%</div></dd>
+      </dl>
+     </div>
+    </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
        <h2 class="subheading">Мои работы</h2>
-
+       
        <h3>Магазин товаров для дома</h3>
+       <figure class="project-image">
+         <img src="files/project.jpg">
+       </figure>
        <p>Мой первый сайт.</p>
-
+       <a class="button" href="source/project/index.html">Открыть страницу</a>
        <h3>Блог начинающего верстальщика</h3>
        <p>Статический блог про обучение HTML и CSS.</p>
       </div>
@@ -45,8 +62,13 @@
 
     <footer class="page-footer">
       <div class="container">
-      Контакты в подвале
+      <a class="footer-email" href="mailto:enot_neopoznanniy@gmail.com">mr.tuuuugga@mail.ru</a>
+      <a class="footer-phone" href="tel:+79147259731">+7(914)725-97-31</a>
       </div>
     </footer>
+
+
+    </div>
+
   </body>
 </html>
