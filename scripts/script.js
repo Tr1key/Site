@@ -1,4 +1,4 @@
-// Выбираем кнопку
+alert('Димас иди нахуй отсюда')
 const btn = document.querySelector(".btn");
 // Выбираем таблицу стилей
 const theme = document.querySelector("#theme-link");
